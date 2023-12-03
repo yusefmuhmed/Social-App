@@ -1,5 +1,2 @@
-import express from 'express'
-const app = express()
-const port = 3000
-
-app.listen(port, () => console.log(`auth listening on port ${port}`))
+import { app, port } from "./app";
+app.listen(port, () => console.log(`Auth service listening on port ${port}`));
